@@ -26,7 +26,7 @@ $text8 = "Fijn toch ";
 $text9 = "? ";
 $text10 = ". ";
 $text11 = ", ";
-$text12 = "<br> ";
+$text12 = "<br>";
 $text13 = " is";
 $text14 = "Vind je niet ";
 
