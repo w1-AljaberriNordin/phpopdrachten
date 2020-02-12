@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <?php
 /**
  * User: Noor Al-Dean Al-Jaberri
@@ -83,3 +84,4 @@ echo "hello world"
 </main>
 
 </body>
+</html>

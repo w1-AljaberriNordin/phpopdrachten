@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <?php
 /**
  * User: Noor Al-Dean Al-Jaberri
@@ -41,3 +42,4 @@ echo "<p>".$text1.$text12.$text8.$text5.$text3.$text13.$text10.$text12.$text7.$t
 
 ?>
 </body>
+</html>

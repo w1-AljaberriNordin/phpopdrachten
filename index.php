@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <?php
 /**
  * User: Noor Al-Dean Al-Jaberri
@@ -76,3 +78,4 @@
 </main>
 
 </body>
+</html>
