@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php
 /**
  * User: Noor Al-Dean Al-Jaberri
@@ -7,12 +8,15 @@
  */
 
 ?>
-
+<head>
+    <title>
+    Opdracht 2.2
+    </title>
+</head>
 <body>
-<header>
-    <h1> <a href="../index.php">Terug</a>|PHP-opdracht 2.2</h1>
-</header>
-
+    <header>
+        <h1> <a href="../index.php">Terug</a>|PHP-opdracht 2.2</h1>
+    </header>
 <?php
 
 $text1 = "Hallo";

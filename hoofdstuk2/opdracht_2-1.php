@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php
 /**
  * User: Noor Al-Dean Al-Jaberri
@@ -7,7 +8,11 @@
  */
 echo "hello world"
 ?>
-
+<head>
+    <title>
+        Opdracht2.1
+    </title>
+</head>
 <body>
 <link href="./CSS/style.css" rel="stylesheet" type="text/css">
 <header>
