@@ -7,7 +7,7 @@
  * Time: 11:30
  * File: opdracht2.1.php
  */
-echo "hello world"
+
 ?>
 <head>
     <title>
@@ -20,6 +20,7 @@ echo "hello world"
     <h1> <a href="../index.php">Terug</a>|PHP-opdracht 2.1</h1>
 </header>
 <aside>
+    echo "hello world"
     <h2>Menu</h2>
     <ul>
         <li>Hoofdstuk 2
