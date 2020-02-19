@@ -48,24 +48,24 @@ else if($countryName == "Bulgarije"&& $currentAge >=18 )
     echo "jij woont in België en je leeftijd is ".$currentAge;
     echo "<br>je mag hier alle alcohol drinken ";
 }
-else if($countryName == "Bulgarije"&& $currentAge >=17 )
+else if($countryName == "Cyprus"&& $currentAge >=17 )
 {
-    echo "jij woont in België en je leeftijd is ".$currentAge;
+    echo "jij woont in Cyprus en je leeftijd is ".$currentAge;
     echo "<br>je mag hier alle alcohol drinken ";
 }
-else if($countryName == "Bulgarije"&& $currentAge >=18 )
+else if($countryName == "Nederland"&& $currentAge >=18 )
 {
-    echo "jij woont in België en je leeftijd is ".$currentAge;
+    echo "jij woont in Nederland en je leeftijd is ".$currentAge;
     echo "<br>je mag hier alle alcohol drinken ";
 }
-else if($countryName == "Bulgarije"&& $currentAge >=18 )
+else if($countryName == "Zweden"&& $currentAge >=18 )
 {
-    echo "jij woont in België en je leeftijd is ".$currentAge;
+    echo "jij woont in Zweden en je leeftijd is ".$currentAge;
     echo "<br>je mag hier alleen zwakke alcohol drinken";
 }
-else if($countryName == "Bulgarije"&& $currentAge >=20 )
+else if($countryName == "Zweden"&& $currentAge >=20 )
 {
-    echo "jij woont in België en je leeftijd is ".$currentAge;
+    echo "jij woont in Zweden en je leeftijd is ".$currentAge;
     echo "<br>je mag hier alleen zwakke alcohol drinken";
 }
 else
