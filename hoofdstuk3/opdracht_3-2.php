@@ -30,6 +30,48 @@ else
     echo("<p id = rood>U moet stoppen</p>");
 }
 
+$countryName = "België";
+$currentAge = 16;
+
+if($countryName == "België"&& $currentAge >=16 )
+{
+    echo "jij woont in België en je leeftijd is ".$currentAge;
+    echo "<br>je mag hier alleen zwakke alcohol drinken ";
+}
+else if($countryName == "België"&& $currentAge >=18 )
+{
+    echo "jij woont in België en je leeftijd is ".$currentAge;
+    echo "<br>je mag hier alle alcohol drinken ";
+}
+else if($countryName == "Bulgarije"&& $currentAge >=18 )
+{
+    echo "jij woont in België en je leeftijd is ".$currentAge;
+    echo "<br>je mag hier alle alcohol drinken ";
+}
+else if($countryName == "Bulgarije"&& $currentAge >=17 )
+{
+    echo "jij woont in België en je leeftijd is ".$currentAge;
+    echo "<br>je mag hier alle alcohol drinken ";
+}
+else if($countryName == "Bulgarije"&& $currentAge >=18 )
+{
+    echo "jij woont in België en je leeftijd is ".$currentAge;
+    echo "<br>je mag hier alle alcohol drinken ";
+}
+else if($countryName == "Bulgarije"&& $currentAge >=18 )
+{
+    echo "jij woont in België en je leeftijd is ".$currentAge;
+    echo "<br>je mag hier alleen zwakke alcohol drinken";
+}
+else if($countryName == "Bulgarije"&& $currentAge >=20 )
+{
+    echo "jij woont in België en je leeftijd is ".$currentAge;
+    echo "<br>je mag hier alleen zwakke alcohol drinken";
+}
+else
+{
+    echo "jij mag niet drinken";
+}
 
 ?>
 </body>
