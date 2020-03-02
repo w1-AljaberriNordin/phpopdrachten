@@ -7,3 +7,6 @@ echo "Footer van Nordin";
 echo $year;
 echo $name;
 ?>
+</body>
+</html>
+
