@@ -4,7 +4,8 @@
     <title>
         Opdracht3.3
     </title>
-    <link href="Opdracht3.2.css" rel="stylesheet" type="text/css">
+    <link href="../includes/Footer.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
 <header>
