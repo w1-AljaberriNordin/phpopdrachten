@@ -6,6 +6,7 @@ $name = "Nordin";
 
 
 
+//Hier maak ik de groet functie
 
 $hournow = date("G");
 
