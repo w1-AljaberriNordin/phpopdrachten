@@ -1,7 +1,7 @@
 
 <?php
 $greeting = "";
-$year = date('y');
+$year = date('Y');
 $name = "Nordin";
 
 
