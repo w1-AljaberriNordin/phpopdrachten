@@ -14,6 +14,9 @@
 <?php
 
 include '../hoofdstuk4/script.php';
+
+echo "Voor het vak $courseName heb ik $teacherName";
+
 include '../includes/footer.php';
 
 

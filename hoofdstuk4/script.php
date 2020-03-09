@@ -16,75 +16,77 @@
 //Rekenen Wetering
 //Burgerschap Vissser
 
-$courseName = 'PHP';
-$courseName1 = 'Modelleren';
-$courseName2 = 'DigitaleVaardigheden';
-$courseName3 = 'Computertekenen';
-$courseName4 = 'Database';
-$courseName5 = 'HardwareAO';
-$courseName6 = 'HTMLCSS';
-$courseName7 = 'Javascript';
-$courseName8 = 'ASP';
-$courseName9 = 'Usability';
-$courseName10 = 'PHP';
-$courseName11 = 'Nederlands';
-$courseName12 = 'Engels';
-$courseName13 = 'Rekenen';
-$courseName14 = 'Burgerschap';
 
-$teacherName1 = 'Gijsbergs';
-$teacherName2 = 'Pielage';
-$teacherName3 = 'Berg';
-$teacherName4 = 'Wetering';
-$teacherName5 = 'Remco';
-$teacherName6 = 'Saebu';
-$teacherName7 = 'Ende';
-$teacherName8 = 'Mitrovic';
-$teacherName9 = 'Vissser';
 
-switch ($courseName)
-{
+$courseName = 'Nederlands';
+
+//$courseName2 = 'DigitaleVaardigheden';
+//$courseName3 = 'Computertekenen';
+//$courseName4 = 'Database';
+//$courseName5 = 'HardwareAO';
+//$courseName6 = 'HTMLCSS';
+//$courseName7 = 'Javascript';
+//$courseName8 = 'ASP';
+//$courseName9 = 'Usability';
+//$courseName10 = 'PHP';
+//$courseName11 = 'Nederlands';
+//$courseName12 = 'Engels';
+//$courseName13 = 'Rekenen';
+//$courseName14 = 'Burgerschap';
+
+
+//$teacherName2 = 'Pielage';
+//$teacherName3 = 'Berg';
+//$teacherName4 = 'Wetering';
+//$teacherName5 = 'Remco';
+//$teacherName6 = 'Saebu';
+//$teacherName7 = 'Ende';
+//$teacherName8 = 'Mitrovic';
+//$teacherName9 = 'Vissser';
+
+switch ($courseName) {
     case "Modelleren":
-        echo "Voor het vak $courseName1 heb je $teacherName1 als docent";
+        $teacherName = "Gijsbrechts";
         break;
+
     case "DigitaleVaardigheden":
-        echo "Voor het vak $courseName2 heb je $teacherName2 als docent";
+        $teacherName = 'Pielage';
         break;
     case "Computertekenen":
-        echo "Voor het vak $courseName3 heb je $teacherName3 als docent";
+        $teacherName = 'Berg';
         break;
     case "Database":
-        echo "Voor het vak $courseName4 heb je $teacherName4 als docent";
+        $teacherName = 'Wetering';
         break;
     case "HardwareAO":
-        echo "Voor het vak $courseName5 heb je $teacherName6 als docent";
+        $teacherName = 'Saebu';
         break;
     case "HTMLCSS":
-        echo "Voor het vak $courseName6 heb je $teacherName4 als docent";
+        $teacherName = 'Wetering';
         break;
     case "Javascript":
-        echo "Voor het vak $courseName7 heb je $teacherName5 als docent";
+        $teacherName = 'Remco';
         break;
     case "ASP":
-        echo "Voor het vak $courseName8 heb je $teacherName4 als docent";
+        $teacherName = 'Gijsbrechts';
         break;
     case "Usability":
-        echo "Voor het vak $courseName9 heb je $teacherName1 als docent";
+        $teacherName = "Gijsbrechts";
         break;
     case "PHP":
-        echo "Voor het vak $courseName10 heb je $teacherName6 als docent";
+        $teacherName = 'Saebu';
         break;
     case "Nederlands":
-        echo "Voor het vak $courseName11 heb je $teacherName7 als docent";
+        $teacherName = 'Ende';
         break;
     case "Engels":
-        echo "Voor het vak $courseName12 heb je $teacherName8 als docent";
+        $teacherName = 'Mitrovic' ;
         break;
     case "Rekenen":
-        echo "Voor het vak $courseName13 heb je $teacherName4 als docent";
+        $teacherName = 'Wetering';
         break;
     case "Burgerschap":
-        echo "Voor het vak $courseName14 heb je $teacherName9 als docent";
+        $teacherName = 'Vissser';
         break;
 }
 
