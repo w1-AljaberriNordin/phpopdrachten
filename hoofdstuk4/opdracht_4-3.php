@@ -1,32 +1,17 @@
 <?php
-$teller = 19;
-$task2 = "lancering in :";
-while ($teller >= 0)
-{
-    $task2 = $task2.$teller;
-    if ($teller > 0)
-    {
-        $task2 .= ",";
-    }
+include "../includes/Header.php";
+include "script4_3.php";
 
-    $teller--;
-
-}
-
+//Hier zijn die echo's
 echo $task2.'<br>';
-
-$task3 = "lancering in :";
-
-for ($tel=19;$tel >=0; $tel--)
-{
-    $task3 = $task3.$tel;
-
-    if ($tel > 0)
-    {
-        $task3 .= ",";
-    }
-
-}
-
 echo $task3;
+echo $task4;
+echo $task5;
+echo $task6;
+echo $task7;
+
+// dit is taak 8
+echo $task2.'<br>'.$task3.$task4.$task5.$task6.$task7;
+
+include "../includes/footer.php";
 ?>
