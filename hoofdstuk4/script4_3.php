@@ -100,9 +100,10 @@ for ($leeftijd=20;$leeftijd >=0; $leeftijd--)
         default:
             $lifephase = "";
             break;
-    }
 
-    $task7 .=  "<br>".$lifephase;
+    }
+    $task7 .= "<br>In $jaartal was ik $leeftijd jaar oud".$lifephase;
+
 }
 
 ?>
