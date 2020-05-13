@@ -3,7 +3,6 @@ include '../hoofdstuk3/variabelen.php'; ?>
 
 <footer>
 <?php
-session_start();
 
 $bezoeker = "";
 
