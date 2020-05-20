@@ -1,35 +1,29 @@
 <?php
+
 include '../includes/Header.php';
 // Open de database connectie en ODBC driver
-try
-{
+try {
     $pdo = new PDO("odbc:odbc2sqlserver");
-}
-catch (PDOException $e)
-{
+} catch (PDOException $e) {
     echo "<h1>Database error:</h1>";
     echo $e->getMessage();
     die();
 }
 echo "database connectie gelukt";
 // Uitvoeren van een SQl query
-try
-{
+try {
     // Query schrijven
     $sql = 'SELECT * FROM joke';
     // Query uitvoeren
     $result = $pdo->query($sql);
-}
-catch (PDOException $e)
-{
+} catch (PDOException $e) {
     echo 'Er is een probleem met ophalen van jokes: ' . $e->getMessage();
     exit();
 }
 // Lege Array aanmaken voor de results
 $aJokes = array();
 // Door de results heen loopen via een while
-while ($row = $result->fetch(PDO::FETCH_ASSOC))
-{
+while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
     // Result wegschrijven in de $aJokes array
     $aJokes[] = $row;
 }
@@ -38,7 +32,11 @@ echo "<pre>";
 var_dump($aJokes);
 echo "</pre>";
 
-foreach($aJokes as $grap) {
-    echo "<br>".$grap['joketext'];
+echo "<table>";
+foreach ($aJokes as $grap) {
+    echo "<br>"."<tr>"."<td>".$grap['id']."</td>" ."<td>". $grap['joketext']."</td>"."<td>".$grap['jokeclou']."</td>"."<td>".$grap['jokedate']."</td>"."</tr>";
 }
+echo "</table>";
 include '../includes/footer.php';
+?>
+
