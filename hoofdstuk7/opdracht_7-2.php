@@ -34,7 +34,7 @@ echo "</pre>";
 
 echo "<table>";
 foreach ($aJokes as $grap) {
-    echo "<br>"."<tr>"."<td>".$grap['id']."</td>" ."<td>". $grap['joketext']."</td>"."<td>".$grap['jokeclou']."</td>"."<td>".$grap['jokedate']."</td>"."</tr>";
+    echo "<br>"."<tr>"."<td>".$grap['id']."</td>" ."<td>". $grap['joketext']."</td>"."<td>".$grap['jokeclou']."</td>"."<td>".$grap['jokedate']."</td>"."</tr>"; 
 }
 echo "</table>";
 include '../includes/footer.php';
